@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://m1tong.github.io/DSC180-website//sitemap.xml
+Sitemap: https://m1tong.github.io/DSC180-Website//sitemap.xml
