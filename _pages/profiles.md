@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /contributors/
+permalink: /people/
 title: Contributors
 description: members of the group
 nav: true
