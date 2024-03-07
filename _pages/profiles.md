@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /contributors/
 title: Contributors
 description: members of the group
 nav: true
@@ -15,8 +15,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Michelle Tong </p>
-      <p>Linkin: [michelle-tong-m1tong](https://www.linkedin.com/in/michelle-tong-m1tong/) </p>
-      <p>Email Address: m1tong@ucsd.edu | michelletong8664@gmail.com</p>
+      <p>Linkedin: <a href="https://www.linkedin.com/in/michelle-tong-m1tong/">michelle-tong-m1tong</a></p>
+      <p>Email Address: m1tong@ucsd.edu | michelletong8664@gmail.com </p>
 
   - align: left
     image: prof_pic.jpg
