@@ -6,7 +6,7 @@ subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Da
 
 profile:
   align: right
-  image: latest.png
+  image: ronronron.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Something</p>
