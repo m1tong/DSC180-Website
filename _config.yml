@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Congestion Prediction Using Graph Attention Network # the website title (if blank, full name will be used instead)
+title: Congestion Prediction in IC Design using Graph Convolutional Network  # the website title (if blank, full name will be used instead)
 first_name: Michelle
 # middle_name: R.
 last_name: Tong
