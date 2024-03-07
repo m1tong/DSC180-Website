@@ -18,7 +18,7 @@ social: false # includes social icons at the bottom of the page
 ---
 [Contributors](https://m1tong.github.io/DSC180-Website/contributors/): Michelle Tong, Yuyang Pang, Hang Liu, Vivian Chen
 
-[Read Full Project](https://m1tong.github.io/DSC180-Website/project/)
+[READ FULL PROJECT](https://m1tong.github.io/DSC180-Website/project/)
 
 # Abstract
 blah blah blah
@@ -30,15 +30,3 @@ Insert Poster pdf/ Link?
 ## Report
 Insert Report pdf / link?
 
----
-# Background
-
-
-# Graph Convolutional Network
-
-## Basic GCN Model
-## GAT Model
-
-# Side-by-side Comparison
-
-# Analysis
