@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Project
+title: smth
 subtitle: a distill-style blog post
 permalink: /project/
 description: A growing collection of your cool projects.
@@ -8,7 +8,6 @@ nav: true
 nav_order: 3
 date: 2024-03-16
 
-tags: distill formatting
 giscus_comments: false
 featured: true
 
