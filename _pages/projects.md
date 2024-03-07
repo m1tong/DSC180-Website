@@ -1,7 +1,6 @@
 ---
 layout: distill
-title: smth
-subtitle: a distill-style blog post
+title: Full Project
 permalink: /project/
 description: A growing collection of your cool projects.
 nav: true
@@ -69,6 +68,11 @@ _styles: >
   }
 ---
 
+<div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+</div>
+  
 ## Equations
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
