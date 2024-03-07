@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - m1tong
+  - pyyyyyp
+  - HangLiu01
+  - vnchen
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - m1tong/Congestion-Prediction
