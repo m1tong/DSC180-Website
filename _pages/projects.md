@@ -1,6 +1,7 @@
 ---
-layout: distill
+layout: project
 title: Full Project
+subtitle: Congestion Prediction in IC Design using Graph Convolutional Network
 permalink: /project/
 description: A growing collection of your cool projects.
 nav: true
