@@ -23,15 +23,11 @@ This is a project repository website for DSC 180 - B07
 # Background
 
 
-# GAT Visualization
+# Graph Convolutional Network
 
+## Basic GCN Model
 ## GAT Model
 
-
 # Side-by-side Comparison
-
-
-# TSNE Clustering of Kinematics
-
 
 # Analysis
