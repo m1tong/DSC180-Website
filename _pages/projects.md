@@ -38,6 +38,13 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
+  - name: Background
+  - name: Graph Convolutional Network
+    subsections:
+      - name: Basic GCN Model
+      - name: GAT Model
+  - name: Side-by-side Comparison
+  - name: Analysis
   - name: Equations
     # if a section has subsections, you can add them as follows:
     # subsections:
@@ -69,10 +76,17 @@ _styles: >
   }
 ---
 
-<div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-</div>
+## Background
+
+
+## Graph Convolutional Network
+
+### Basic GCN Model
+### GAT Model
+
+## Side-by-side Comparison
+
+## Analysis
   
 ## Equations
 
