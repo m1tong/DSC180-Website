@@ -17,6 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 [Contributors](https://m1tong.github.io/DSC180-Website/contributors/): Michelle Tong, Yuyang Pang, Hang Liu, Vivian Chen
+Mentors: Lindsey Kostas, Guillaume Shippe, Lea Hagen
 
 [READ FULL PROJECT](https://m1tong.github.io/DSC180-Website/project/)
 
