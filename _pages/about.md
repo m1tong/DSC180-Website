@@ -1,7 +1,7 @@
 ---
 layout: about
-title: about
-permalink: /
+title: About
+permalink: /about/
 subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Data Science Institute</a>
 
 profile:
@@ -16,9 +16,9 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-[Authors](https://m1tong.github.io/DSC180-Website/authors/): Michelle Tong, Yuyang Pang, Hang Liu, Vivian Chen
+[Authors](https://m1tong.github.io/DSC180-Website/authors/): Michelle Tong<sup>1</sup>, Yuyang Pang<sup>1</sup>, Hang Liu<sup>1</sup>, Vivian Chen<sup>1</sup>
 
-Mentors: Lindsey Kostas, Guillaume Shippe, Lea Hagen
+Mentors: Lindsey Kostas<sup>2</sup>, Guillaume Shippe<sup>2</sup>, Lea Hagen<sup>2</sup>
 
 [READ FULL PROJECT](https://m1tong.github.io/DSC180-Website/project/)
 
