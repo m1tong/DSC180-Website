@@ -23,7 +23,7 @@ Mentors: Lindsey Kostas, Guillaume Shippe, Lea Hagen
 [READ FULL PROJECT](https://m1tong.github.io/DSC180-Website/project/)
 
 # Abstract
-blah blah blah
+This report presents a novel approach to early congestion prediction in Integrated Circuit (IC) design through the use of Graph Attention Networks (GATs). Addressing the challenge of congestion, we developed an interpretable graph neural network model. Utilizing the NCSU-DigIC-GraphData dataset, which comprises 13 unique netlists with distinct congestion characteristics, our methodology includes feature engineering, graph embedding, and a two-layer GAT convolutional architecture. Initial results, based on one netlist, show promising training and test loss metrics, though the model tends to predict average congestion values, indicating room for improvement.
 
 
 # Extra Content
