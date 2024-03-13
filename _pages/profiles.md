@@ -1,7 +1,7 @@
 ---
 layout: profiles
-permalink: /authors/
-title: Authors
+permalink: /contributors/
+title: Contributors
 description: members of the group
 nav: true
 nav_order: 7
