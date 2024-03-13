@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Data Science Institute</a>
 
 profile:
