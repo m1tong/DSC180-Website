@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /about/
+altmetric: true
 subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Data Science Institute</a>
 
 profile:
