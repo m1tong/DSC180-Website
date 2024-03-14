@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Data Science Institute</a>
 
 profile:
-  align: center
+  align: right
   image: ronronron.png
   image_circular: false # crops the image to make it circular
   more_info: >
