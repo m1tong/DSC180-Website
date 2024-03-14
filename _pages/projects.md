@@ -38,7 +38,10 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Background
+  - name: Introduction
+  - name: Methodology
+      - name: Dataset
+      - name: Feature Selection and Engineering
   - name: Graph Convolutional Network
     subsections:
       - name: Basic GCN Model
@@ -69,7 +72,19 @@ _styles: >
   }
 ---
 
-## Background
+## Introducion
+
+Predicting congestion in integrated circuit (IC) design is a critical yet challenging task. Congestion occurs when excessive wiring or routing is required in certain regions of the chip layout, often resulting from suboptimal floor planning or high cell density. This can lead to significant issues, such as timing discrepancies, crosstalk, increased power consumption, reduced reliability, and elevated production costs. Early prediction and mitigation of congestion are thus essential to avoid these complications.
+
+Current optimization tools for calculating congestion is extremely time-consuming given the complexity of modern chips. A Machine Learning model that utilizes the existing information of netlists and their congestion can accelerate the optimization process in IC design. The complexity of congestion prediction lies in the intricate nature of IC layouts. This project seeks to address this challenge by leveraging Graph Neural Networks (GNNs), which hold promise due to their ability to model complex relationships and interactions in graph-structured data.
+
+The goal of this project is to develop an efficient graph neural network for early congestion prediction in IC design. Particularly, this project aims to compare the performances of different GNN model architectures on the NCSU-DigIC-GraphData, a dataset with relatively small netlists, and gain insights from it.
+
+--- 
+## Methodology
+### Dataset
+
+### Feature Selection and Engineering
 
 ---
 
