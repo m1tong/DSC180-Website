@@ -8,10 +8,12 @@ nav: true
 nav_order: 3
 date: 2024-03-16
 
-teasor:
-  image: roneoneon.jpg
-  caption: >
-    <p>ronronron</p>
+profile:
+  align: center
+  image: ronronron.png
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Something</p>
     
 giscus_comments: false
 featured: true
