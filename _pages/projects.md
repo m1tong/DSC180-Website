@@ -9,9 +9,9 @@ nav_order: 3
 date: 2024-03-16
 
 teasor:
-  image: walker.jpg
+  image: roneoneon.jpg
   caption: >
-    <p>walker</p>
+    <p>ronronron</p>
     
 giscus_comments: false
 featured: true
