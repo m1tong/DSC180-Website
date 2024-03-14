@@ -8,6 +8,11 @@ nav: true
 nav_order: 3
 date: 2024-03-16
 
+teasor:
+  image: walker.jpg
+  caption: >
+    <p>walker</p>
+    
 giscus_comments: false
 featured: true
 
