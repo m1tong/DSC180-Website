@@ -75,7 +75,7 @@
         <p>{{ page.description }}</p>
 
         {% if page.profile %}
-          <div>
+          <div class="text-center">
             {% if page.profile.image %}
               {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
               {% if page.profile.image_circular %}
