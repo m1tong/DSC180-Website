@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Full Project
-subtitle: Congestion Prediction in IC Design using Graph Convolutional Network
+subtitle: Congestion Prediction in IC Design using Graph Neural Network
 permalink: /project/
 description: A growing collection of your cool projects.
 nav: true
@@ -43,9 +43,9 @@ toc:
     subsections:
       - name: Dataset
       - name: Feature Selection and Engineering
-  - name: Graph Convolutional Network
+  - name: Graph Neural Network
     subsections:
-      - name: Basic GCN Model
+      - name: GCN Model
       - name: GAT Model
   - name: Side-by-side Comparison
   - name: Analysis
@@ -89,10 +89,10 @@ The goal of this project is to develop an efficient graph neural network for ear
 
 ---
 
-## Graph Convolutional Network
+## Graph Neural Network
 
 
-### Basic GCN Model
+### GCN Model
 ### GAT Model
 
 --- 
