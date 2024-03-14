@@ -40,6 +40,7 @@ bibliography: 2018-12-22-distill.bib
 toc:
   - name: Introduction
   - name: Methodology
+    subsections:
       - name: Dataset
       - name: Feature Selection and Engineering
   - name: Graph Convolutional Network
