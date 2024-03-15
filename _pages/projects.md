@@ -96,7 +96,7 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="{{ '/assets/img/Node and GRCs.png' | relative_url }}" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src="{{site.baseurl}}/assets/img/Node and GRCs.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
@@ -105,11 +105,8 @@ Node features and node connectivity refer to the characteristics and interconnec
     </div>
 </div>
 
-<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" width="300" height="200"> </img>
-<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" alt="Nodes and GRC" width="300" height="200">
-
 <div class="table-1" style="text-align:center;">
-    <img src='/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
+    <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
     <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
 </div>
 
@@ -117,7 +114,7 @@ Node features and node connectivity refer to the characteristics and interconnec
   <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}">
 </div>
 
-<img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}" width="300" height="200">
+<img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}" width="400" height="auto">
 
 <img src="{{site.baseurl}}/assets/img/table1_data_summary.png">
 
