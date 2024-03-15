@@ -92,8 +92,8 @@ For each netlist, the dataset contains node features, node connectivity, and GRC
 
 Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
 
-![Nodes and GRC](./assets/img/congestuon.png) 
-![Congestion in GRC](https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png)
+![Nodes and GRC](img/congestuon.png) 
+![Congestion in GRC](/img/congestuon.png)
 ![Congestion in GRC](DSC180-Website/blob/master/assets/img/congestuon.png)
 
 <div class="figure-1" style="display: flex; justify-content: center;">
