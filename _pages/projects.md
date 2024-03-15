@@ -36,8 +36,8 @@ authors:
     affiliations:
       name: University of California, San Diego
     
-Mentors:
-  - name:Lindsey Kostas<d-footnote>Qualcomm Inc.</d-footnote>
+mentors:
+  - name: Lindsey Kostas<d-footnote>Qualcomm Inc.</d-footnote>
     affiliations:
       name: Qualcomm Inc.
   - name: Guillaume Shippee<d-footnote>Qualcomm Inc.</d-footnote>
