@@ -22,19 +22,19 @@ authors:
   - name: Michelle Tong
     url: "https://m1tong.github.io/"
     affiliations:
-      name: University of California, San Diego
+      name: HDSI, UCSD
   - name: Yuyang Pang
     url: "https://www.linkedin.com/in/yuyang-pang-667285241/"
     affiliations:
-      name: University of California, San Diego
+      name: HDSI, UCSD
   - name: Hang Liu
     url: "https://www.linkedin.com/in/hang-liu-2b4b371aa/"
     affiliations:
-      name: University of California, San Diego
+      name: HDSI, UCSD
   - name: Vivian Chen
     url: "https://www.linkedin.com/in/vnchen01/"
     affiliations:
-      name: University of California, San Diego
+      name: HDSI, UCSD
   - name: Lindsey Kostas
     affiliations:
       name: Qualcomm Inc.
