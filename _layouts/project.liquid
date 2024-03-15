@@ -76,8 +76,9 @@
       </d-title>
 
       <div class="table-1" style="text-align:center;">
-          <img src='{{site.baseurl}}/assets/img/gnn_graph.gif' style="width:200%; max-width:800px;">
+          <img src='{{site.baseurl}}/assets/img/gnn_graph.gif' srcset='{{site.baseurl}}/assets/img/gnn_graph.gif 800w' sizes="(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw" style="width:100%; max-width:800px;">
       </div>
+
 
       {% if page.authors %}
         <d-byline></d-byline>
