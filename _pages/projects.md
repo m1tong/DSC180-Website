@@ -99,7 +99,7 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="table-2" style="text-align:center;">
     <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
-    <img src='{{site.baseurl}}/assets/img/Congestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
+    <img src='{{site.baseurl}}/assets/imgcongestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
 </div>
 
 <div class="figure-1" style="display: flex; justify-content: center;">
@@ -108,7 +108,7 @@ Node features and node connectivity refer to the characteristics and interconnec
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src='{{site.baseurl}}/assets/img/Congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1b:</p>
     </div>
 </div>
