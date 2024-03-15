@@ -105,7 +105,8 @@ This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, eac
 For each netlist, the dataset contains node features, node connectivity, and GRC based congestion (demand minus capacity).
 
 Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
-![Nodes and GRC](/assets/img/Nodes and GRCs.png) ![Congestion in GRC](/assets/img/congestuon.png)
+
+![Nodes and GRC](/assets/img/Nodes and GRCs.png) ![Congestion in GRC](assets/img/congestuon.png)
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
