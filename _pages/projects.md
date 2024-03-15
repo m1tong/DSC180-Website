@@ -120,9 +120,10 @@ Node features and node connectivity refer to the characteristics and interconnec
 </div>
 
 <div class="l-page">
-  <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}"></img>
+  <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}">
 </div>
 
+<img src="{{site.baseurl}}/assets/img/table1_data_summary.png">
 
 
 
