@@ -124,7 +124,8 @@ _styles: >
       margin: 0 auto;
       width: 500px; // Set a specific width
       height: auto; // Maintain aspect ratio
-}
+  }
+
 ---
 
 ## Introducion
