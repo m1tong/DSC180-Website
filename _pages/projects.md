@@ -92,17 +92,15 @@ For each netlist, the dataset contains node features, node connectivity, and GRC
 
 Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
 
-![Nodes and GRC](img/congestuon.png) 
-![Congestion in GRC](/img/congestuon.png)
-![Congestion in GRC](DSC180-Website/blob/master/assets/img/congestuon.png)
+![Nodes and GRC]({{site.baseurl}}/assets/img/table1_data_summary.png) 
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="/img/table1_data_summary.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src="{{ '/assets/img/Node and GRCs.png' | relative_url }}" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="img/table1_data_summary.png" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <img src="{{ '/assets/img/Congestuon.png' | relative_url }}" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1b:</p>
     </div>
 </div>
@@ -116,12 +114,10 @@ Node features and node connectivity refer to the characteristics and interconnec
 </div>
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/demo.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
-</div>
-
-<div class="l-page">
   <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}">
 </div>
+
+<img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}" width="300" height="200">
 
 <img src="{{site.baseurl}}/assets/img/table1_data_summary.png">
 
