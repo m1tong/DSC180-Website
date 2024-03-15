@@ -99,7 +99,7 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="table-2" style="text-align:center;">
     <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
-    <img src='{{site.baseurl}}/assets/imgcongestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
+    <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
 </div>
 
 <div class="figure-1" style="display: flex; justify-content: center;">
