@@ -88,29 +88,27 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 ### Dataset
 This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Figure 1), but not all GRCs have the same dimensions. 
 
-For each netlist, the dataset contains node features, node connectivity, and GRC based congestion (demand minus capacity).
-
-Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
-
-<div class="table-1" style="text-align:center;">
-    <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
-    <p style="font-size: smaller;">Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
-</div>
-
 <div class="table-2" style="text-align:center;">
-    <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
+    <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Table for Dataset Statistic" style="width:100%; max-width:200px;">
     <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
 </div>
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 80%; max-width: 200px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 200px;">
         <p>Figure 1b:</p>
     </div>
+</div>
+
+For each netlist, the dataset contains node features, node connectivity, and GRC based congestion (demand minus capacity). Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
+
+<div class="table-1" style="text-align:center;">
+    <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
+    <p style="font-size: smaller;">Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
 </div>
 
 
