@@ -6,7 +6,7 @@ subtitle: <a href='https://datascience.ucsd.edu/'>UC San Diego, Halıcıoğlu Da
 
 profile:
   align: right
-  image: ronronron.png
+  image: gnn_graph.gif
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Something</p>
@@ -25,7 +25,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 # Abstract
-This report presents insights into the use of Graph Neural Networks (GNNs) for early congestion prediction in Integrated Circuit (IC) design. Utilizing the NCSU-DigIC-GraphData dataset, which includes 13 unique netlists with distinct congestion characteristics, our methodology includes node feature engineering, graph train-test split, and a comparison between model architectures, such as Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs). Results show that Graph Neural Networks do not scale well on small netlists that only contain a few thousand nodes. GATs can perform better than GCNs but with significantly longer training time. Moreover, GRC-based prediction models are inferior to node-based prediction models.
+Congestion prediction is a crucial part of the design process of Integrated Circuits (IC). It allows chip designers to discover areas that have excessive routing demand and optimize the circuit accordingly. This paper presents insights into the use of Graph Neural Networks for early congestion prediction in IC designs. Utilizing the NCSU-DigIC-GraphData dataset, which includes 13 small netlists with distinct congestion characteristics, our methodology includes node feature engineering, multi-graph train-test split, and a comparison between model architectures, which features Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs). Results show that Graph Neural Networks do not scale well on small netlists that only contain a few thousand nodes. GATs can perform better than GCNs but have significantly longer training time. Moreover, GRC-based prediction models are inferior to node-based prediction models.
 
 
 
