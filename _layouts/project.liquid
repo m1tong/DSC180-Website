@@ -46,6 +46,20 @@
               }{% if forloop.last == false %},{% endif %}
               {% endfor %}
             ],
+            "Mentors": [
+              {% for mentor in page.mentors %}
+              {
+                "mentor": "{{ mentor.name }}",
+                "mentorURL": "{{ mentor.url }}",
+                "affiliations": [
+                  {
+                    "name": "{{ mentor.affiliations.name }}",
+                    "url": "{{ mentor.affiliations.url }}"
+                  }
+                ]
+              }{% if forloop.last == false %},{% endif %}
+              {% endfor %}
+            ],
             "katex": {
               "delimiters": [
                 {
