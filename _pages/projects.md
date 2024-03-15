@@ -107,7 +107,7 @@ Node features and node connectivity refer to the characteristics and interconnec
     </div>
 </div>
 
-<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" width="300" height="200"> 
+<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" width="300" height="200"> </img>
 <img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" alt="Nodes and GRC" width="300" height="200">
 
 <div class="table-1" style="text-align:center;">
@@ -115,9 +115,12 @@ Node features and node connectivity refer to the characteristics and interconnec
     <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
 </div>
 
-<div class="table-1" style="text-align:center;">
-    <img src='assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
-    <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/demo.html' | relative_url }}" frameborder='0' scrolling='no' height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
+</div>
+
+<div class="l-page">
+  <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}"></img>
 </div>
 
 
