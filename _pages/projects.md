@@ -19,7 +19,7 @@ giscus_comments: false
 featured: true
 
 authors:
-  - name: Michelle Tong
+  - name: Michelle Tong<d-footnote>University of California, San Diego</d-footnote>
     url: "https://m1tong.github.io/"
     affiliations:
       name: University of California, San Diego
@@ -56,6 +56,7 @@ toc:
       - name: GAT Model
   - name: Side-by-side Comparison
   - name: Analysis
+  - name: References
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
@@ -82,11 +83,13 @@ _styles: >
 
 ## Introducion
 
-Predicting congestion in integrated circuit (IC) design is a critical yet challenging task. Congestion occurs when excessive wiring or routing is required in certain regions of the chip layout, often resulting from suboptimal floor planning or high cell density. This can lead to significant issues, such as timing discrepancies, crosstalk, increased power consumption, reduced reliability, and elevated production costs. Early prediction and mitigation of congestion are thus essential to avoid these complications.
+Predicting congestion in IC design is a critical yet challenging task. Congestion occurs when excessive wiring or routing is required in certain regions of the chip layout, often resulting from suboptimal floor planning or high cell density. This can lead to significant issues, such as timing discrepancies, crosstalk, increased power consumption, reduced reliability, and high production costs. Early prediction and mitigation of congestion are thus essential to avoid these complications.
 
-Current optimization tools for calculating congestion is extremely time-consuming given the complexity of modern chips. A Machine Learning model that utilizes the existing information of netlists and their congestion can accelerate the optimization process in IC design. The complexity of congestion prediction lies in the intricate nature of IC layouts. This project seeks to address this challenge by leveraging Graph Neural Networks (GNNs), which hold promise due to their ability to model complex relationships and interactions in graph-structured data.
+Current optimization tools for calculating congestion are extremely time-consuming given the complexity of modern chips. A machine learning model that utilizes the existing information of netlists and their congestion can accelerate the optimization process in IC design. Predicting congestion is generally complex due to the intricate nature of IC layouts. This project seeks to address this challenge by leveraging Graph Neural Networks (GNNs), which hold promise due to their ability to model complex relationships and interactions in graph-structured data. 
 
-The goal of this project is to develop an efficient graph neural network for early congestion prediction in IC design. Particularly, this project aims to compare the performances of different GNN model architectures on the NCSU-DigIC-GraphData, a dataset with relatively small netlists, and gain insights from it.
+Related Work: The approach of using graph neural networks in congestion prediction has been explored in recent works. Kirby et al. utilized deep Graph Attention Networks on the hypergraph representation of IC designs to predict congestion <d-cite key="Kirby2019CongestionNet"></d-cite>. This graph neural network-based approach has outperformed existing methods of congestion prediction by accuracy and speed. Moreover, GNNs can predict congestion on a per-cell level and don't require any placement information.
+
+Given the advantages of GNNs in circuit congestion prediction, our project aims to explore similar GNN architectures from Kirby et al.'s work on the NCSU-DigIC-GraphData dataset and compare the performance of different GNN architectures. NCSU-DigIC-GraphData has a much smaller scale compared to the netlists used in Kirby et al.'s paper, which has roughly 50 million cells from tens of designs. Experimenting with graph neural networks on different sizes of netlists can give us insights into how well GNNs scale and how different GNN architectures perform on a smaller-scale dataset.
 
 --- 
 ## Methodology
@@ -109,4 +112,8 @@ The goal of this project is to develop an efficient graph neural network for ear
 --- 
 
 ## Analysis
+
+---
+## References
+
   
