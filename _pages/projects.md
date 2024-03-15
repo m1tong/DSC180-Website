@@ -19,23 +19,34 @@ giscus_comments: false
 featured: true
 
 authors:
-  - name: Michelle Tong<d-footnote>University of California, San Diego</d-footnote>
+  - name: Michelle Tong<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
     url: "https://m1tong.github.io/"
     affiliations:
       name: University of California, San Diego
-  - name: Yuyang Pang
+  - name: Yuyang Pang<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
     url: "https://www.linkedin.com/in/yuyang-pang-667285241/"
     affiliations:
       name: University of California, San Diego
-  - name: Hang Liu
+  - name: Hang Liu<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
     url: "https://www.linkedin.com/in/hang-liu-2b4b371aa/"
     affiliations:
       name: University of California, San Diego
-  - name: Vivian Chen
+  - name: Vivian Chen<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
     url: "https://www.linkedin.com/in/vnchen01/"
     affiliations:
       name: University of California, San Diego
-
+    
+Mentors:
+  - name:Lindsey Kostas<d-footnote>Qualcomm Inc.</d-footnote>
+    affiliations:
+      name: Qualcomm Inc.
+  - name: Guillaume Shippee<d-footnote>Qualcomm Inc.</d-footnote>
+    affiliations:
+      name: Qualcomm Inc.
+  - name: Lea Hagen<d-footnote>Qualcomm Inc.</d-footnote>
+    affiliations:
+      name: Qualcomm Inc.
+    
 bibliography: 2018-12-22-distill.bib
 
 # Optionally, you can add a table of contents to your post.
