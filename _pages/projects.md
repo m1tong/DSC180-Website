@@ -93,8 +93,8 @@ This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, eac
     <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
 </div>
 
-<div class="figure-1" style="display: flex; justify-content: center;">
-    <div style="flex: 1; margin-right: 40px">
+<div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
+    <div style="flex: 1; margin-left: 40px">
         <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 200px;">
         <p>Figure 1a:  </p>
     </div>
@@ -129,7 +129,12 @@ Besides the existing node features, some related features are calculated and ass
     
 - **GRC Indexes**: Unique x and y index for each GRC. Even though xloc and yloc already encode the spatial information of nodes, GRC indexes can provide extra references for the model to understand the spatial relationships of nodes.
 
-To examine the correlation between these features and demand/congestion. We calculated the Pearson correlation coefficients (Table \ref{tab:corr}). In the table, we removed height and orientation because all cells have the same height and orientation is not ordinal. The correlation coefficients indicate an association between selected features and targeted congestion.
+To examine the correlation between these features and demand/congestion. We calculated the Pearson correlation coefficients (Table 2). In the table, we removed height and orientation because all cells have the same height and orientation is not ordinal. The correlation coefficients indicate an association between selected features and targeted congestion.
+
+<div class="table-1" style="text-align:center;">
+    <img src='{{site.baseurl}}/assets/img/correlation.png' alt="Correlation Table" style="width:100%; max-width:500px;">
+    <p style="font-size: smaller;">Table 2: Correlation Table </p>
+</div>
 
 As one can observe, the correlation between congestion and demand is very high (0.778). As stated before, congestion is defined as (demand - capacity). In other words, the existence of demand is what causes congestion, which explains why the correlation between these two variables is notably high. Therefore, we will consider the idea of constructing a model that predicts demand instead of congestion.  
 
