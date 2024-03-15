@@ -9,7 +9,7 @@ nav_order: 3
 date: 2024-03-16
 
 profile:
-  align: center
+  align: left
   image: gnn_graph.gif
   image_circular: false # crops the image to make it circular
   more_info: >
