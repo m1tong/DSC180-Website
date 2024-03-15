@@ -1,6 +1,40 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
+// Profile
+
+.profile {
+  width: 100%;
+
+  .more-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.profile.float-right {
+  margin-left: 1rem;
+}
+
+.profile.float-left {
+  margin-right: 1rem;
+}
+
+.profile.float-center {
+  align-items: center;
+}
+
+.profile.text-center {
+    margin: 0 auto;
+    width: 200px; // Set a specific width
+    height: auto; // Maintain aspect ratio
+}
 
 d-byline {
   border-top-color: var(--global-divider-color) !important;
