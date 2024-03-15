@@ -108,17 +108,17 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="/assets/img/Nodes and GRCs.png" alt="Table for Dataset Statistic" style="width: 50%; max-width: 300px;">
+        <img src="assets/img/Nodes and GRCs.png" alt="Table for Dataset Statistic" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="/assets/img/congestuon.png" alt="Second Image" style="width: 50%; max-width: 300px;">
+        <img src="assets/img/congestuon.png" alt="Second Image" style="width: 50%; max-width: 300px;">
         <p>Figure 1b:</p>
     </div>
 </div>
 
 <div class="table-1" style="text-align:center;">
-    <img src="/assets/img/table1_data_summary.png" alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
+    <img src="assets/img/table1_data_summary.png" alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
     <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
 </div>
 
