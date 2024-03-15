@@ -86,16 +86,16 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 --- 
 ## Methodology
 ### Dataset
-This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Figure 1), but not all GRCs have the same dimensions. 
+This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Figure `1`), but not all GRCs have the same dimensions. 
 
 <div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
     <div style="flex: 1; margin-left: 50px">
-        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 300px;">
-        <p>Figure 1a:  </p>
+        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 250px;">
+        <p style="font-size: smaller;">Figure 1a  </p>
     </div>
     <div style="flex: 1;">
         <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 200px;">
-        <p>Figure 1b:</p>
+        <p style="font-size: smaller;">Figure 1b</p>
     </div>
 </div>
 
@@ -124,7 +124,7 @@ Besides the existing node features, some related features are calculated and ass
     
 - **GRC Indexes**: Unique x and y index for each GRC. Even though xloc and yloc already encode the spatial information of nodes, GRC indexes can provide extra references for the model to understand the spatial relationships of nodes.
 
-To examine the correlation between these features and demand/congestion. We calculated the Pearson correlation coefficients (Table 2). In the table, we removed height and orientation because all cells have the same height and orientation is not ordinal. The correlation coefficients indicate an association between selected features and targeted congestion.
+To examine the correlation between these features and demand/congestion. We calculated the Pearson correlation coefficients (Table `2`). In the table, we removed height and orientation because all cells have the same height and orientation is not ordinal. The correlation coefficients indicate an association between selected features and targeted congestion.
 
 <div class="table-1" style="text-align:center;">
     <img src='{{site.baseurl}}/assets/img/correlation.png' alt="Correlation Table" style="width:100%; max-width:500px;">
@@ -206,21 +206,23 @@ When we plotted the scatterplots of ground truth demand and predicted demand (Fi
 
 On the other hand, the GAT model reached a training loss of 15.083 and a test loss of 13.418 (Figure `2c&d`). Moreover, Pearson's correlation coefficient for the predicted demand and ground truth is 0.472 for the GAT model, much higher than the correlation coefficient of the GCN model (0.005). To test our models' robustness, we separately trained the GCN and GAT models on every design and calculated the RMSE, Pearson's r, Kendell's Tau B on the test sets. 
 
-<div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
-    <div style="flex: 1; margin-left: 50px">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_loss.png' alt="" style="width: 150%; max-width: 300px;">
+<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-start;">
+    <div style="flex: 1; margin-left: 50px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2a</p>
     </div>
     <div style="flex: 1;">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_scatt.png' alt="" style="width: 50%; max-width: 200px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_scatt.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2b</p>
     </div>
-    <div style="flex: 1; margin-left: 50px">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_loss.png' alt="" style="width: 150%; max-width: 300px;">
+</div>
+<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-start;">
+    <div style="flex: 1; margin-left: 50px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2c</p>
     </div>
     <div style="flex: 1;">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 50%; max-width: 200px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 100%; max-width: 200px;">
         <p>Figure 2d</p>
     </div>
 </div>
@@ -233,7 +235,12 @@ Table 3 contains model performance on single designs and cross designs settings.
 </div>
 
 ### GRC-Based Models
-We experimented with a per GRC prediction model using a GAT model because we believed GRC-based models may have the lowest MSE given the nature of how demand is stored in the dataset. However, the prediction has the worst correlation coefficient with the ground truth (-0.0855) compared to cell-based models. Figure `GRC_pred_scat` shows the prediction has no patterns at all. This might be caused by a lack of node features in the GRC-based models.
+We experimented with a per GRC prediction model using a GAT model because we believed GRC-based models may have the lowest MSE given the nature of how demand is stored in the dataset. However, the prediction has the worst correlation coefficient with the ground truth (-0.0855) compared to cell-based models. Figure `3` shows the prediction has no patterns at all. This might be caused by a lack of node features in the GRC-based models.
+
+<div class="figure-3" style="text-align:center;">
+    <img src='{{site.baseurl}}/assets/img/GRC-based_prediction_scatter.png' alt="GRC based_prediction_scatter" style="width:100%; max-width:500px;">
+    <p style="font-size: smaller;">Figure 3 </p>
+</div>
 
 
 --- 
