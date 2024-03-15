@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 
 [Mentors](https://m1tong.github.io/DSC180-Website/contributors/): Lindsey Kostas, Guillaume Shippee, Lea Hagen
 
-<a href='https://m1tong.github.io/DSC180-Website/project/'><img src='https://img.shields.io/badge/READ_Full_Projext-HTML-green'> <a href=''><img src='https://img.shields.io/badge/Report-PDF-blue'> <a href=''><img src='https://img.shields.io/badge/Poster-PDF-red'>
+<a href='https://m1tong.github.io/DSC180-Website/project/'><img src='https://img.shields.io/badge/Read_Full_Project-HTML-green'> <a href=''><img src='https://img.shields.io/badge/Report-PDF-blue'> <a href=''><img src='https://img.shields.io/badge/Poster-PDF-red'>
 
 ---
 
