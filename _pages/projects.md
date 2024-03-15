@@ -88,14 +88,9 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 ### Dataset
 This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Figure 1), but not all GRCs have the same dimensions. 
 
-<div class="table-2" style="text-align:center;">
-    <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Table for Dataset Statistic" style="width:100%; max-width:200px;">
-    <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Table for Dataset Statistic" style="width:50%; max-width:200px;">
-</div>
-
 <div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
-    <div style="flex: 1; margin-left: 40px">
-        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 200px;">
+    <div style="flex: 1; margin-left: 50px">
+        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1;">
@@ -205,13 +200,37 @@ To utilize GNNs, we treat each GRC as a node and compute GRC features and GRC ed
 ## Results
 
 ### Node-Based Models
-By training the GCN model on one netlist (Xbar\_1) that contains 3952 nodes, it reached a training loss of 75.368 and a test loss of 82.583. From Figure `GCN_loss`, we can tell that the training and validation loss decreased exponentially and are healthy.
+By training the GCN model on one netlist (Xbar\_1) that contains 3952 nodes, it reached a training loss of 75.368 and a test loss of 82.583. From Figure `2a`, we can tell that the training and validation loss decreased exponentially and are healthy.
 
-When we plotted the scatterplots of ground truth demand and predicted demand (Figure `GCN_pred_scat`), we found that our model tends to predict the mean of the congestion. This may be due to the MSE loss function we used. It reflects that the model failed to capture the relationship between node features, connectivity, and demand.
+When we plotted the scatterplots of ground truth demand and predicted demand (Figure `2b`), we found that our model tends to predict the mean of the congestion. This may be due to the MSE loss function we used. It reflects that the model failed to capture the relationship between node features, connectivity, and demand.
 
-On the other hand, the GAT model reached a training loss of 15.083 and a test loss of 13.418. Moreover, Pearson's correlation coefficient for the predicted demand and ground truth is 0.472 for the GAT model, much higher than the correlation coefficient of the GCN model (0.005). To test our models' robustness, we separately trained the GCN and GAT models on every design and calculated the RMSE, Pearson's r, Kendell's Tau B on the test sets. 
+On the other hand, the GAT model reached a training loss of 15.083 and a test loss of 13.418 (Figure `2c&d`). Moreover, Pearson's correlation coefficient for the predicted demand and ground truth is 0.472 for the GAT model, much higher than the correlation coefficient of the GCN model (0.005). To test our models' robustness, we separately trained the GCN and GAT models on every design and calculated the RMSE, Pearson's r, Kendell's Tau B on the test sets. 
 
-Table `model_results` contains model performance on single designs and cross designs settings. The performance of a naive mean predictor is also included to serve as a reference for model performance. Generally, GATs have lower RMSE and higher Pearson and Kendall in both single-design training and cross-design training compared to GCNs.
+<div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
+    <div style="flex: 1; margin-left: 50px">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_loss.png' alt="" style="width: 150%; max-width: 300px;">
+        <p>Figure 2a</p>
+    </div>
+    <div style="flex: 1;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_scatt.png' alt="" style="width: 50%; max-width: 200px;">
+        <p>Figure 2b</p>
+    </div>
+    <div style="flex: 1; margin-left: 50px">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_loss.png' alt="" style="width: 150%; max-width: 300px;">
+        <p>Figure 2c</p>
+    </div>
+    <div style="flex: 1;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 50%; max-width: 200px;">
+        <p>Figure 2d</p>
+    </div>
+</div>
+
+Table 3 contains model performance on single designs and cross designs settings. The performance of a naive mean predictor is also included to serve as a reference for model performance. Generally, GATs have lower RMSE and higher Pearson and Kendall in both single-design training and cross-design training compared to GCNs.
+
+<div class="table-3" style="text-align:center;">
+    <img src='{{site.baseurl}}/assets/img/table2_model_performance.png' alt="Model Performance" style="width:100%; max-width:500px;">
+    <p style="font-size: smaller;">Table 3: Model Performance Comparison </p>
+</div>
 
 ### GRC-Based Models
 We experimented with a per GRC prediction model using a GAT model because we believed GRC-based models may have the lowest MSE given the nature of how demand is stored in the dataset. However, the prediction has the worst correlation coefficient with the ground truth (-0.0855) compared to cell-based models. Figure `GRC_pred_scat` shows the prediction has no patterns at all. This might be caused by a lack of node features in the GRC-based models.
