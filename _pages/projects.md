@@ -19,31 +19,29 @@ giscus_comments: false
 featured: true
 
 authors:
-  - name: Michelle Tong<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
+  - name: Michelle Tong
     url: "https://m1tong.github.io/"
     affiliations:
       name: University of California, San Diego
-  - name: Yuyang Pang<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
+  - name: Yuyang Pang
     url: "https://www.linkedin.com/in/yuyang-pang-667285241/"
     affiliations:
       name: University of California, San Diego
-  - name: Hang Liu<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
+  - name: Hang Liu
     url: "https://www.linkedin.com/in/hang-liu-2b4b371aa/"
     affiliations:
       name: University of California, San Diego
-  - name: Vivian Chen<d-footnote>Halicioglu Data Science Institute, University of California San Diego</d-footnote>
+  - name: Vivian Chen
     url: "https://www.linkedin.com/in/vnchen01/"
     affiliations:
       name: University of California, San Diego
-    
-mentors:
-  - name: Lindsey Kostas<d-footnote>Qualcomm Inc.</d-footnote>
+    - name: Lindsey Kostas
     affiliations:
       name: Qualcomm Inc.
-  - name: Guillaume Shippee<d-footnote>Qualcomm Inc.</d-footnote>
+  - name: Guillaume Shippee
     affiliations:
       name: Qualcomm Inc.
-  - name: Lea Hagen<d-footnote>Qualcomm Inc.</d-footnote>
+  - name: Lea Hagen
     affiliations:
       name: Qualcomm Inc.
     
