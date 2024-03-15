@@ -8,12 +8,6 @@ nav: true
 nav_order: 3
 date: 2024-03-16
 
-profile:
-  align: left
-  image: gnn_graph.gif
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Something</p>
     
 giscus_comments: false
 featured: true
@@ -107,6 +101,10 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 ## Methodology
 ### Dataset
 This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Table 1), but not all GRCs have the same dimensions.
+
+![Table for Dataset Statistic](assets/img/table1_data_summary.png)
+
+Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist.
 
 <div class="table-1" style="text-align:center;">
     <img src="assets/img/table1_data_summary.png" alt="Table for Dataset Statistic" style="width:50%; max-width:500px;">
