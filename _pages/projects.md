@@ -3,7 +3,7 @@ layout: project
 title: Full Project
 subtitle: Congestion Prediction in IC Design using Graph Neural Network
 permalink: /project/
-description: A growing collection of your cool projects.
+description: Uses different Graph Neural Networks (GNNs) to predict congestion in IC design to accelerate optimization processes and address challenges in layout complexities.
 nav: true
 nav_order: 3
 date: 2024-03-16
@@ -206,8 +206,8 @@ When we plotted the scatterplots of ground truth demand and predicted demand (Fi
 
 On the other hand, the GAT model reached a training loss of 15.083 and a test loss of 13.418 (Figure `2c&d`). Moreover, Pearson's correlation coefficient for the predicted demand and ground truth is 0.472 for the GAT model, much higher than the correlation coefficient of the GCN model (0.005). To test our models' robustness, we separately trained the GCN and GAT models on every design and calculated the RMSE, Pearson's r, Kendell's Tau B on the test sets. 
 
-<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-start;">
-    <div style="flex: 1; margin-left: 50px;">
+<div class="figure-2" style="display: flex; justify-content: center; align-items: baseline;">
+    <div style="flex: 1; margin-left: 30px;">
         <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2a</p>
     </div>
@@ -216,13 +216,13 @@ On the other hand, the GAT model reached a training loss of 15.083 and a test lo
         <p>Figure 2b</p>
     </div>
 </div>
-<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-start;">
-    <div style="flex: 1; margin-left: 50px;">
+<div class="figure-2" style="display: flex; justify-content: center; align-items: baseline;">
+    <div style="flex: 1; margin-left: 30px;">
         <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2c</p>
     </div>
     <div style="flex: 1;">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 100%; max-width: 200px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2d</p>
     </div>
 </div>
