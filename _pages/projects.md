@@ -94,11 +94,11 @@ This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, eac
 </div>
 
 <div class="figure-1" style="display: flex; justify-content: center;">
-    <div style="flex: 1; margin-right: 10px;">
-        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 80%; max-width: 200px;">
+    <div style="flex: 1;">
+        <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 100%; max-width: 200px;">
         <p>Figure 1a:  </p>
     </div>
-    <div style="flex: 1; margin-left: 10px;">
+    <div style="flex: 1;">
         <img src='{{site.baseurl}}/assets/img/congestion.png' alt="Congestion in GRC" style="width: 50%; max-width: 200px;">
         <p>Figure 1b:</p>
     </div>
