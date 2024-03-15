@@ -194,7 +194,6 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
-  margin: 0 auto;
 
   .more-info {
     margin-bottom: 5px;
@@ -220,7 +219,8 @@ ul.task-list input[type="checkbox"] {
   align-items: center;
 }
 
-.profile img {
+.profile.text-center {
+    margin: 0 auto;
     width: 200px; // Set a specific width
     height: auto; // Maintain aspect ratio
 }
