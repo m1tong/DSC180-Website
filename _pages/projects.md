@@ -88,7 +88,7 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 ### Dataset
 This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Figure `1`), but not all GRCs have the same dimensions. 
 
-<div class="figure-1" style="display: flex; justify-content: center; align-items: baseline">
+<div class="figure-1" style="display: flex; justify-content: center; align-items: flex-end">
     <div style="flex: 1; margin-left: 50px">
         <img src='{{site.baseurl}}/assets/img/Nodes_and_GRCs.png' alt="Nodes and GRC" style="width: 150%; max-width: 250px;">
         <p style="font-size: smaller;">Figure 1a  </p>
@@ -206,23 +206,23 @@ When we plotted the scatterplots of ground truth demand and predicted demand (Fi
 
 On the other hand, the GAT model reached a training loss of 15.083 and a test loss of 13.418 (Figure `2c&d`). Moreover, Pearson's correlation coefficient for the predicted demand and ground truth is 0.472 for the GAT model, much higher than the correlation coefficient of the GCN model (0.005). To test our models' robustness, we separately trained the GCN and GAT models on every design and calculated the RMSE, Pearson's r, Kendell's Tau B on the test sets. 
 
-<div class="figure-2" style="display: flex; justify-content: center; align-items: baseline;">
+<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-end;">
     <div style="flex: 1; margin-left: 30px;">
         <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2a</p>
     </div>
     <div style="flex: 1;">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_scatt.png' alt="" style="width: 100%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GCN_scatt.png' alt="" style="width: 130%; max-width: 330px;">
         <p>Figure 2b</p>
     </div>
 </div>
-<div class="figure-2" style="display: flex; justify-content: center; align-items: baseline;">
+<div class="figure-2" style="display: flex; justify-content: center; align-items: flex-end;">
     <div style="flex: 1; margin-left: 30px;">
         <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_loss.png' alt="" style="width: 100%; max-width: 300px;">
         <p>Figure 2c</p>
     </div>
     <div style="flex: 1;">
-        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 100%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/Xbar_1_GAT_scatt.png' alt="" style="width: 130%; max-width: 330px;">
         <p>Figure 2d</p>
     </div>
 </div>
