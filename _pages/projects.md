@@ -10,7 +10,7 @@ date: 2024-03-16
 
 profile:
   align: center
-  image: ronronron.png
+  image: gnn_graph.gif
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Something</p>
