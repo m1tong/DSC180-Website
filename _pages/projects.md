@@ -110,11 +110,11 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src="/img/table1_data_summary.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <img src="img/table1_data_summary.png" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1b:</p>
     </div>
 </div>
