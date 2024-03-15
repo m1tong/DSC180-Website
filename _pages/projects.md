@@ -92,11 +92,15 @@ For each netlist, the dataset contains node features, node connectivity, and GRC
 
 Node features and node connectivity refer to the characteristics and interconnections of individual elements within the netlist. GRC-based congestion calculates congestion at a GRC index with multiple nodes.
 
-![Nodes and GRC]({{site.baseurl}}/assets/img/table1_data_summary.png) 
+<div class="table-1" style="text-align:center;">
+    <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
+    <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
+</div>
+
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="{{site.baseurl}}/assets/img/Node_and_GRCs.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
@@ -105,18 +109,18 @@ Node features and node connectivity refer to the characteristics and interconnec
     </div>
 </div>
 
-<div class="table-1" style="text-align:center;">
-    <img src='{{site.baseurl}}/assets/img/table1_data_summary.png' alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
-    <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
+
+<div class="row justify-content-sm-center">
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="{{site.baseurl}}/assets/img/table1_data_summary.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="{{site.baseurl}}/assets/img/table1_data_summary.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-
-<div class="l-page">
-  <img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}">
+<div class="caption">
+    LHS is the walker walking, RHS is the walker's states and rewards
 </div>
-
-<img src="{{ '/assets/img/table1_data_summary.png' | relative_url }}" width="400" height="auto">
-
-<img src="{{site.baseurl}}/assets/img/table1_data_summary.png">
 
 
 
