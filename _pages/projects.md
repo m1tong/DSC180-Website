@@ -96,11 +96,11 @@ Node features and node connectivity refer to the characteristics and interconnec
 
 <div class="figure-1" style="display: flex; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="{{site.baseurl}}/assets/img/Node and GRCs.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <img src="{{site.baseurl}}/assets/img/Node_and_GRCs.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1a:  </p>
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="{{ '/assets/img/Congestuon.png' | relative_url }}" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <img src="{{ '/assets/img/Congestion.png' | relative_url }}" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
         <p>Figure 1b:</p>
     </div>
 </div>
