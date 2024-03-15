@@ -27,4 +27,28 @@ social: false # includes social icons at the bottom of the page
 Congestion prediction is a crucial part of the design process of Integrated Circuits (IC). It allows chip designers to discover areas that have excessive routing demand and optimize the circuit accordingly. This paper presents insights into the use of Graph Neural Networks for early congestion prediction in IC designs. Utilizing the NCSU-DigIC-GraphData dataset, which includes 13 small netlists with distinct congestion characteristics, our methodology includes node feature engineering, multi-graph train-test split, and a comparison between model architectures, which features Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs). Results show that Graph Neural Networks do not scale well on small netlists that only contain a few thousand nodes. GATs can perform better than GCNs but have significantly longer training time. Moreover, GRC-based prediction models are inferior to node-based prediction models.
 
 
+![Nodes and GRC](img/congestuon.png) 
+![Congestion in GRC](/img/congestuon.png)
+![Congestion in GRC](DSC180-Website/blob/master/assets/img/congestuon.png)
+
+<div class="figure-1" style="display: flex; justify-content: center;">
+    <div style="flex: 1; margin-right: 10px;">
+        <img src="/img/table1_data_summary.png" alt="Nodes and GRC" style="width: 50%; max-width: 300px;">
+        <p>Figure 1a:  </p>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+        <img src="img/table1_data_summary.png" alt="Congestion in GRC" style="width: 50%; max-width: 300px;">
+        <p>Figure 1b:</p>
+    </div>
+</div>
+
+<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" width="300" height="200"> 
+<img src="https://github.com/m1tong/DSC180-Website/blob/master/assets/img/congestuon.png" alt="Nodes and GRC" width="300" height="200">
+
+<div class="table-1" style="text-align:center;">
+    <img src="assets/img/table1_data_summary.png" alt="Table for Dataset Statistic" style="width:100%; max-width:500px;">
+    <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
+</div>
+
+
 
