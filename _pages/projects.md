@@ -91,41 +91,6 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-  // Profile
-
-  .profile {
-    width: 100%;
-  
-    .more-info {
-      margin-bottom: 5px;
-      margin-top: 5px;
-      font-family: monospace;
-  
-      p {
-        display: inline-block;
-        margin: 0;
-      }
-    }
-  }
-  
-  .profile.float-right {
-    margin-left: 1rem;
-  }
-  
-  .profile.float-left {
-    margin-right: 1rem;
-  }
-
-  .profile.float-center {
-    align-items: center;
-  }
-  
-  .profile.text-center {
-      margin: 0 auto;
-      width: 500px; // Set a specific width
-      height: auto; // Maintain aspect ratio
-  }
-
 ---
 
 ## Introducion
@@ -143,13 +108,9 @@ Given the advantages of GNNs in circuit congestion prediction, our project aims 
 ### Dataset
 This project utilizes the NCSU-DigIC-GraphData, which comprises 13 netlists, each exhibiting unique placement and congestion characteristics. For each netlist, the dataset contains node features, node connectivity, and Global Route Cell (GRC) based demand and capacity. GRCs are organized in a rectangular grid (Table 1), but not all GRCs have the same dimensions.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/table1_data_summary.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist.
+<div class="table-1" style="text-align:center;">
+    <img src="assets/img/table1_data_summary.png" alt="Table for Dataset Statistic" style="width:50%; max-width:500px;">
+    <p>Table 1: Dataset'details & statistics. 1st column in the table shows the name of each netlist, 2nd-4th column show the number of cells, edge, and effective layers in each netlist, 5th-8th columns show the distribution of edge per cells for each netlist and 9th-12th columns show the distribution of congestions for each netlist. </p>
 </div>
 
 ### Feature Selection and Engineering
