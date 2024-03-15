@@ -35,7 +35,7 @@ authors:
     url: "https://www.linkedin.com/in/vnchen01/"
     affiliations:
       name: University of California, San Diego
-    - name: Lindsey Kostas
+  - name: Lindsey Kostas
     affiliations:
       name: Qualcomm Inc.
   - name: Guillaume Shippee
